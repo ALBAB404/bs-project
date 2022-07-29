@@ -1,0 +1,409 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+a{
+    text-decoration: none;
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    width: 100%;
+    position: absolute;
+    padding: 30px 0;
+
+}
+
+
+
+.nav-link{
+    font-size: 20px;
+    font-family:'Bebas Neue', cursive; ;
+    color: #3d2514 !important;
+    font-weight: 400;
+    letter-spacing: 2px;
+    padding: 0 !important;
+    
+}
+.nav-item{
+    margin-left: 20px;
+    
+    position: relative;
+    
+    
+}
+.nav-item::before{
+    content: '';
+    height: 3px;
+    width: 0%;
+    background-color: #3d2514;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+}
+.nav-item:hover::before{
+    width: 50%;
+    transition: .5s;
+}
+.nav-item::after{
+    content: '';
+    height: 3px;
+    width: 0%;
+    background-color: #ed1010;
+    right: 0;
+    top: 0;
+    position: absolute;
+}
+.nav-item:hover::after{
+    width: 50%;
+    transition: .5s;
+}
+
+.contact-header{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px ;
+    font-weight: 700;
+    color: #3d2514;
+}
+
+/* ..............banner section start here .......  */
+
+
+#banner{
+    width: 100%;
+    height: 100vh;
+    background-image: url('/image/header-bg.png');
+    background-position: center;
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.height-100{
+    height: 100vh;
+}
+.h-subtitle{
+    border: 2px dashed #3d2514;
+    padding: 6px 12px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 24px;
+    color: #3d2514;
+    display: inline-block;
+}
+.h-text{
+    font-size: 114px;
+    font-family: 'Alfa Slab One', cursive;
+    color: #3d2514;
+    text-transform: uppercase;
+    text-shadow: 4px 4px rgb(255 255 255 / 50%);
+}
+.h2-text{
+    font-size: 56px;
+    font-family: 'Alfa Slab One', cursive;
+    color: #3d2514;
+    text-transform: uppercase;
+    text-shadow: 2px 2px rgb(255 255 255 / 50%);
+    letter-spacing: 1px;
+}
+
+/* ...........banner section end .........  */
+/* ...........feature section start .........  */
+
+#feature{
+    width: 100%;
+    margin: 80px 0;
+}
+.feature-item{
+    position: relative;
+}
+.b-contant{
+    position: absolute;
+    top: 30px;
+    left: 40px;
+}
+.b-contant h3{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 27px;
+    color: white;
+    text-transform: uppercase;
+}
+.b-contant h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 42px;
+    color: white;
+    text-transform: uppercase;
+}
+
+/* ...........feature section end .........  */
+/* ...........about section start .........  */
+
+#about-section{
+
+    width: 100%;
+    
+}
+.about{
+    text-align: center;
+}
+.about span {
+    background-color: #ffc045;
+    color: #3d2514;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 600;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+.about h1{
+    font-family: 'Alfa Slab One', cursive;
+    color: #3d2514;
+    margin: 30px;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.about p{
+    padding-right: 80px;
+    padding-left: 80px;
+}
+
+
+/* ...........about section end .........  */
+/* ...........choose section start .........  */
+
+#choose{
+    width: 100%;
+    margin: 70px 0;
+}
+.c-content{
+    text-align: center;
+}
+
+.c-content h1{
+    color: #3d2514;
+    font-weight: 600;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.c-content p{
+    padding-left: 50px;
+    padding-right: 50px;
+    
+}
+.c-content button{
+    background-color: #bf2222;
+    color: white;
+    padding: 5px 30px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+}
+.c-content button{
+    background-color: #bf2222;
+    color: white;
+    padding: 5px 30px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+    transition: .5s;
+}
+.c-content button:hover{
+    background-color: #ed1010;
+    color: white;
+    transition: .5s;
+    transform: scale(1.2);
+    
+}
+/* ...........choose section end .........  */
+
+/* ..........evant section start ....  */
+
+#evant{
+    width: 100%;
+    padding: 60px 0;
+}
+
+.boxShadow{
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    padding: 20px;
+}
+.evant-box h3{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    color: #3d2514;
+    padding: 10px;
+}
+.evant-box h1{
+    font-size: 42px;
+    text-transform: uppercase;
+    font-family: 'Alfa Slab One', cursive;
+    color: #3d2514;
+    padding: 10px;
+}
+.evant-box p{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: #3d2514;
+    padding: 10px;
+}
+
+.owl-nav{
+    display: none;
+}
+
+.owl-dots{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+.owl-theme .owl-dots .owl-dot.active span, 
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: #e4ff00;
+}
+/* ..........evant section end ....  */
+
+/* ...........form section start .........  */
+
+#form-section{
+    width: 100%;
+    height: 100vh;
+    margin: 90px 0;
+    background-image: url('/image/form.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+.form{
+    text-align: center;
+    
+   
+}
+.form h3{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    color: #3d2514;
+    text-transform: uppercase;
+}
+.form h1{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 45px;
+    color: #3d2514;
+    text-transform: uppercase;
+    margin-bottom: 80px;
+}
+
+.form-style {
+    margin: 30px;
+}
+.form-style input {
+    padding-left: 11px;
+    padding-right: 147px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+.form-style a {
+    padding-left: 79px;
+    padding-right: 83px;
+    padding-top: 14px;
+    padding-bottom: 10px;
+    margin-left: 30px;
+    background-color: #bf2222;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    font-family: 'Alfa Slab One', cursive;
+    letter-spacing: 2px;
+    transition: .5s;
+    
+}
+
+.form-style a:hover{
+    background-color: #ed1010;
+    color: white;
+    transform: scale(1.1);
+    transition: .5s;
+}
+/* .form-style a:focus{
+    outline: none;
+    border: none;
+} */
+
+
+/* ...........form section end .........  */
+/* ...........footer section strat .........  */
+
+#footer-section{
+    width: 100%;
+    
+}
+
+.main-footer{
+    width: 100%;
+    
+    background-image: url('/image/footer-background.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+.first-section img{
+    padding: 70px;
+}
+
+.left-footer p{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+    padding: 70px;
+    line-height: 32px;
+
+}
+.footer-right{
+    /* height: 100vh; */
+    margin-top: 321px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+}
+.footer-right p {
+    margin-left: 40px;
+}
+.ii i {
+    position: absolute;
+    font-size: 24px;
+    top: 4px;
+    right: 393px;
+}
+.iii i {
+    position: absolute;
+    font-size: 24px;
+    top: 44px;
+    right: 393px;
+}
+
+.icon{
+    color: white;
+    font-size: 26px;
+    margin-left: 140px;
+    
+}
+
+.second span {
+    color: white;
+    padding-left: 72px;
+}
+
+
+
+
+/* ...........footer section end .........  */
+
+
